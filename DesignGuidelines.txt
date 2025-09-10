@@ -1,0 +1,103 @@
+# Brand Guidelines for Portfolio Website
+
+These guidelines define the **visual identity, style, and reusable design elements** for Bhanujeet Choudhary’s portfolio site. They ensure consistency across all current and future pages.
+
+---
+
+## 1. Colors & Backgrounds
+- **Primary Palette (Greyscale Futuristic):**
+  - Light Background Gradient: `from-gray-50 via-white to-gray-100`
+  - Hero Accent Gradient Dot: `from-gray-400 to-gray-600`
+  - Section Card Gradients:
+    - AI Journey: `from-gray-400 to-gray-600`
+    - XR & Safety: `from-gray-500 to-gray-700`
+    - Other Roles: `from-gray-600 to-gray-800`
+- **Hover Accents:** Subtle purple-blue highlights
+  - Card hover shadow: `rgba(139,92,246,0.5)`
+  - Button hover: `from-purple-500 to-blue-500`
+- **Text Colors:**
+  - Body: `text-gray-700`
+  - Headings: Darker shades (`text-gray-800`)
+  - Secondary info: `text-gray-600`
+
+---
+
+## 2. Typography
+- **Font Family:** Sans-serif (system font stack)
+- **Heading Style:**
+  - Large, bold, clean (`text-4xl to text-6xl`)
+  - Center-aligned for hero and section headers
+- **Body Text:**
+  - Comfortable readability (`text-lg` for intros, `text-sm` for descriptions)
+  - Max width: `max-w-2xl`
+
+---
+
+## 3. Layout & Spacing
+- **Sections:**
+  - Hero: ~70% viewport height, centered
+  - Explore Sections: 3-column grid on desktop, stacked on mobile
+  - Contact: Centered with clear CTAs
+  - Footer: Small, clean, with credits
+- **Padding/Margins:**
+  - Vertical spacing: `py-20` to `py-32`
+  - Grid gap: `gap-10`
+
+---
+
+## 4. Components
+### Hero Section
+- Minimal text, background accent dot
+- Subdued greyscale tone for sophistication
+
+### Section Cards
+- Rounded corners: `rounded-2xl`
+- Border: subtle (`border-gray-300`)
+- Shadow: soft, with hover glow
+- Hover Interaction: scale-up and purple-blue glow
+
+### Buttons / Links
+- Rounded full buttons
+- Gradient backgrounds (greyscale base, colorful hover)
+- Include **icons** for clarity (GitHub, LinkedIn, Email)
+- Hover: gradient shift with color pop
+
+### Footer
+- Minimal with copyright
+- Extra line for credits and external link (e.g., raw information)
+
+---
+
+## 5. Interaction Style
+- **Animations:**
+  - Hero dot: `animate-pulse`
+  - Cards: hover scale + glow
+- **Transitions:** Smooth, `transition-colors` or `transition-transform`
+- **Hover Colors:** Always shift from neutral greys to subtle accents (purple, blue, pink)
+
+---
+
+## 6. Accessibility
+- Ensure text contrast is high (dark text on light backgrounds)
+- Buttons should have hover color changes **and** slight shadow/glow changes
+- Links: always underlined or clearly styled
+
+---
+
+## 7. Tone & Personality
+- **Minimal & Futuristic:** Use space, clean lines, no clutter
+- **Professional yet Friendly:** Neutral greys, subtle color pops, approachable CTAs
+- **Consistent:** Reuse components and layouts across all pages
+
+---
+
+## 8. Future Page Guidance
+When creating new pages (e.g., *AI Journey*, *XR & Safety*, *Other Roles*):
+- Use the same **hero structure**: a short intro + accent dot
+- Use **consistent headings** (bold, centered)
+- Content blocks should follow the same spacing (`py-20`, `px-6`)
+- Calls-to-action at the bottom (with consistent button styling)
+
+---
+
+This guideline ensures all future pages stay consistent with the **futuristic greyscale aesthetic** while allowing for subtle, modern hover color accents.

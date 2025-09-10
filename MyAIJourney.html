@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AI Journey | Bhanujeet Choudhary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 18px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #cbd5e1; /* gray-300 */
+            border: 4px solid #f8fafc; /* slate-50 */
+        }
+        .timeline-item:not(:last-child):after {
+            content: '';
+            position: absolute;
+            left: -21px;
+            top: 42px;
+            width: 2px;
+            height: calc(100% - 20px);
+            background-color: #e2e8f0; /* slate-200 */
+        }
+        .prose a {
+            color: #4f46e5; /* indigo-600 */
+            text-decoration: none;
+            transition: color 0.2s ease-in-out;
+            font-weight: 500;
+        }
+        .prose a:hover {
+            color: #3b82f6; /* blue-500 */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-50 via-white to-gray-100 text-gray-800">
+
+    <!-- Hero Section -->
+    <header class="flex flex-col justify-center items-center h-[50vh] text-center px-6 relative overflow-hidden">
+        <div class="absolute top-1/4 left-1/2 transform -translate-x-1/2 w-80 h-80 rounded-full bg-gradient-to-r from-gray-400 to-gray-600 blur-3xl opacity-20 animate-pulse"></div>
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-800 z-10">My AI Journey</h1>
+        <p class="mt-6 text-lg md:text-xl text-gray-700 max-w-2xl z-10">
+            A chronological narrative of my learning, projects, and explorations in the field of Artificial Intelligence.
+        </p>
+    </header>
+
+    <!-- Main Content - AI Journey Timeline -->
+    <main class="py-20 px-6 md:px-20">
+        <div class="max-w-4xl mx-auto">
+            <div class="relative pl-8 prose lg:prose-lg max-w-none">
+                
+                <!-- 2018 -->
+                <div class="timeline-item mb-16">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">2018</h2>
+                    <div class="space-y-4 text-gray-700">
+                        <p>My journey into Artificial Intelligence began in 2018, sparked by a friend who was taking <a href="https://www.coursera.org/specializations/machine-learning-introduction" target="_blank" rel="noopener noreferrer">Andrew Ng's foundational AI course</a>, where the coding exercises were done on the <a href="https://www.gnu.org/software/octave/" target="_blank" rel="noopener noreferrer">Octave platform</a>. At the time, I was a Senior Project Manager at a human resources service company with a full-time role in operations; building software and writing code were entirely new to me. However, I had a profound and enduring interest in working with data—what is commonly called "Data Analytics"—and was particularly fond of analyzing economic, monetary, and environmental datasets.</p>
+                        <p>While mathematics was a personal challenge, I've always been drawn to difficult problems, viewing the effort to learn as a meaningful investment of time. With a curious mind, a strong background in math, an understanding of data, but zero coding knowledge, I confidently began Andrew Ng's AI course. It started normally, with a few lectures a week. The material quickly became fascinating as I learned about the connection between AI and the functioning of brain neurons, its relationship to <a href="https://en.wikipedia.org/wiki/Perceptron" target="_blank" rel="noopener noreferrer">perceptrons</a>, and the <a href="https://en.wikipedia.org/wiki/Logic_gate" target="_blank" rel="noopener noreferrer">logic gate</a>—the core of digital electronics, which had been my favorite lecture series during my engineering studies.</p>
+                        <p>I had discovered a field that combined all my interests and promised a path toward a new and meaningful career. I was also completely unaware of its deep connection to neurons and brainwaves, subjects I had always wanted to explore. This made the prospect of learning to program AI feel both fun and easy—little did I know what was ahead. My obsession with the course grew, and I found myself studying day and night, even in cabs, driven by a surprising new enthusiasm. Within a month or two, I had completed the 11-chapter course, though I had done very little actual coding. By then, I was aware that <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">Python</a> was the preferred language for AI, and <a href="https://pytorch.org/" target="_blank" rel="noopener noreferrer">PyTorch</a> was gaining momentum.</p>
+                        <p>This first, extensive course fundamentally changed my perspective on the future and the immense disruption AI could cause as it matures. When I say AI, I include all of its branches: <a href="https://en.wikipedia.org/wiki/Reinforcement_learning" target="_blank" rel="noopener noreferrer">Reinforcement Learning</a>, <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="noopener noreferrer">Machine Learning</a>, <a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank" rel="noopener noreferrer">Deep Learning</a>, and other algorithmic advancements. I knew I had to understand the history and the milestones, like the formulation of <a href="https://en.wikipedia.org/wiki/Backpropagation" target="_blank" rel="noopener noreferrer">forward and backpropagation theories</a>, that formed the backbone of AI. I purchased the <a href="https://jakevdp.github.io/PythonDataScienceHandbook/" target="_blank" rel="noopener noreferrer">"Python Data Science Handbook" by Jake Vanderplas</a> and began coding in <a href="https://jupyter.org/" target="_blank" rel="noopener noreferrer">Jupyter Notebooks</a>. I followed GitHub repositories, ran code locally using the <a href="https://www.anaconda.com/" target="_blank" rel="noopener noreferrer">Anaconda environment</a>, and leaned on <a href="https://stackoverflow.com/" target="_blank" rel="noopener noreferrer">Stack Overflow</a>. My passion for data visualization made learning libraries like <a href="https://numpy.org/" target="_blank" rel="noopener noreferrer">NumPy</a>, <a href="https://pandas.pydata.org/" target="_blank" rel="noopener noreferrer">Pandas</a>, and <a href="https://matplotlib.org/" target="_blank" rel="noopener noreferrer">Matplotlib</a> the best investment in my journey. Though I didn't finish the book, it provided a solid foundation.</p>
+                        <p>I realized that to master coding AI, I first needed to learn data science—a slight diversion, but necessary, as I have a habit of clarifying the basics before diving deep into a topic. I became active on <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">X (formerly Twitter)</a>, following influential figures in the AI ecosystem like <a href="https://research.google/people/jeff/" target="_blank" rel="noopener noreferrer">Jeff Dean</a>, <a href="https://www.fast.ai/about/#jeremy" target="_blank" rel="noopener noreferrer">Jeremy Howard</a>, and <a href="https://fchollet.com/" target="_blank" rel="noopener noreferrer">François Chollet</a>, along with many researchers and practitioners. I was inspired by people like <a href="https://www.jack-kelly.com/" target="_blank" rel="noopener noreferrer">Jack Kelly</a>, who left <a href="https://deepmind.google/" target="_blank" rel="noopener noreferrer">Google DeepMind</a> to build cloud nowcasting models to predict sunlight for solar energy generation. Following his project and joining his community taught me a great deal about how AI/ML can improve existing systems, remove roadblocks, and act as a powerful catalyst for innovation.</p>
+                    </div>
+                </div>
+
+                <!-- 2019 -->
+                <div class="timeline-item mb-16">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">2019</h2>
+                     <div class="space-y-4 text-gray-700">
+                        <p>By the end of 2019, I was deep down the AI rabbit hole. I was taking a Reinforcement Learning MOOC from OpenAI engineers and reading recent research papers from top conferences like <a href="https://nips.cc/" target="_blank" rel="noopener noreferrer">NeurIPS</a>, <a href="https://icml.cc/" target="_blank" rel="noopener noreferrer">ICML</a>, and <a href="https://cvpr.thecvf.com/" target="_blank" rel="noopener noreferrer">CVPR</a>. I followed the work of researchers from renowned institutions such as <a href="https://www.mit.edu/" target="_blank" rel="noopener noreferrer">MIT</a>, <a href="https://tech.cornell.edu/" target="_blank" rel="noopener noreferrer">Cornell Tech</a>, <a href="https://mila.quebec/en/" target="_blank" rel="noopener noreferrer">MILA</a>, and <a href="https://ai.google/" target="_blank" rel="noopener noreferrer">Google</a>. To better understand the complex mathematics, I turned to <a href="https://ocw.mit.edu/" target="_blank" rel="noopener noreferrer">MIT's OpenCourseWare</a> lecture series and watched paper explanations on YouTube channels like <a href="https://www.youtube.com/c/TwoMinutePapers" target="_blank" rel="noopener noreferrer">"Two Minute Papers,"</a> <a href="https://www.youtube.com/c/MachineLearningTokyo" target="_blank" rel="noopener noreferrer">"Machine Learning Tokyo,"</a> and <a href="https://www.youtube.com/c/MachineLearningStreetTalk" target="_blank" rel="noopener noreferrer">"Machine Learning Street Talk."</a> For coding, I learned Python from tutorials by Sentdex.</p>
+                        <p>I was completing free, uncertified courses on Coursera and edX, and by the end of the year, I was knee-deep in Python, building AI models from scratch. My second book purchase, <a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/" target="_blank" rel="noopener noreferrer">"Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow" by Aurélien Géron</a>, introduced me to the Google ecosystem. I was struck by how invested Google was in the technology, from providing <a href="https://cloud.google.com/tpu" target="_blank" rel="noopener noreferrer">TPUs</a> on the cloud to developing <a href="https://www.tensorflow.org/" target="_blank" rel="noopener noreferrer">TensorFlow</a> and publishing foundational papers on <a href="https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)" target="_blank" rel="noopener noreferrer">Transformers</a>, <a href="https://en.wikipedia.org/wiki/Generative_adversarial_network" target="_blank" rel="noopener noreferrer">GANs</a>, and <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network" target="_blank" rel="noopener noreferrer">CNNs</a> that paved the way for today's LLMs. Simultaneously, professors like <a href="https://nlp.stanford.edu/manning/" target="_blank" rel="noopener noreferrer">Christopher Manning</a> and <a href="https://profiles.stanford.edu/fei-fei-li" target="_blank" rel="noopener noreferrer">Fei-Fei Li</a> at Stanford were doing amazing work on text-based models. Taking some of their free courses formed the basis of my understanding of NLP.</p>
+                     </div>
+                </div>
+                
+                <!-- 2020 -->
+                <div class="timeline-item mb-16">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">2020</h2>
+                     <div class="space-y-4 text-gray-700">
+                        <p>At the start of 2020, my focus shifted to Reinforcement Learning, taking MOOCs from OpenAI researchers and other community experts. My job provided a real-world use case for these new skills. In March 2019, I had transitioned from an operations career to a Product Manager role for a SaaS product that handled background verification for employees in India. The sheer volume of records in India made cross-validating personal IDs and court cases a significant challenge.</p>
+                        <p>In 2020, I was asked to work with the R&D team to build a face verification system that compared a user's selfie with the photo on their ID card and matched personal details from the RFID. We successfully developed the system, which required human oversight for results below a certain confidence threshold, and soon turned it into a product for other clients.</p>
+                        <p>My study of Reinforcement Learning, including concepts like control policies, feedback mechanisms, and agent environments, strengthened my belief that AI would be the catalyst for the next industrial revolution. This conviction led me to my third book, <a href="https://www.deeplearningbook.org/" target="_blank" rel="noopener noreferrer">"Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville</a>, famously recommended by <a href="https://twitter.com/elonmusk" target="_blank" rel="noopener noreferrer">Elon Musk</a>. The book was dense with the higher-level mathematics core to building and understanding deep learning models. During this period, the lines between Machine Learning, Deep Learning, and Reinforcement Learning were blurry, which made for a fun and dynamic learning environment. It was also when I truly grasped the critical importance of data labeling. High-quality, use-case-specific data was rare, giving rise to billion-dollar companies like <a href="https://scale.com/" target="_blank" rel="noopener noreferrer">Scale AI</a> and teaching me that the quality of the training data ultimately determines the quality of the model.</p>
+                     </div>
+                </div>
+
+                <!-- 2021 -->
+                <div class="timeline-item mb-16">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">2021</h2>
+                     <div class="space-y-4 text-gray-700">
+                        <p>As I began to understand how models learned, everything became clearer and more interesting. I was consuming information from hundreds of websites, GitHub repositories, and research papers weekly. I realized my next step was to get closer to the action. By the start of 2021, I was convinced I should immigrate to Canada, home to some of the world's best universities and AI research labs. My plan was to pursue a Ph.D. or, failing that, find a role in a research lab. Life, however, had other plans. I applied for and received my permanent residency, landing in Canada in October 2021.</p>
+                        <p>On a different note, before moving, I was also co-founding and running a small D2C FMCG brand in India. This entrepreneurial venture taught me how to build a company from the ground up and the immense difficulty of scaling. None of us had a background in FMCG or sales, which made the challenge even greater. I was involved in everything from building and maintaining the website to establishing sales, marketing, and shipping channels, all while working on product development.</p>
+                     </div>
+                </div>
+
+                <!-- 2022 -->
+                <div class="timeline-item mb-16">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">2022</h2>
+                     <div class="space-y-4 text-gray-700">
+                        <p>Life, as it often does, took a different turn. Driven by an interest in the privacy implications of Virtual Reality, I joined a U.S.-based non-profit. I began helping the founder build and run programs, conduct research, and advance a mission I believed in: safeguarding society from the risks of future technologies. My understanding that "data is the new oil" made it clear that data management and governance would be foundational for any company using AI/ML.</p>
+                        <p>I became deeply engaged in my new role and new country, and for a time, I lost track of the rapid progress in AI. That changed when <a href="https://openai.com/blog/chatgpt" target="_blank" rel="noopener noreferrer">ChatGPT 3.5</a> was launched in November 2022. I learned about it in December, and by January 2023, I was using it to summarize transcripts from panels and keynotes at work. I trained a small team on <a href="https://en.wikipedia.org/wiki/Prompt_engineering" target="_blank" rel="noopener noreferrer">prompt engineering</a>, and with the help of a few volunteers, we summarized 45 session transcripts in a matter of days.</p>
+                     </div>
+                </div>
+                
+                <!-- 2023 -->
+                <div class="timeline-item mb-16">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">2023</h2>
+                     <div class="space-y-4 text-gray-700">
+                        <p>I was amazed by the power of <a href="https://en.wikipedia.org/wiki/Large_language_model" target="_blank" rel="noopener noreferrer">Large Language Models (LLMs)</a> and what <a href="https://openai.com/" target="_blank" rel="noopener noreferrer">OpenAI</a> had unleashed. I had been following their research since 2018, from their GAN research to MusicNet, but the capabilities demonstrated by their text models were on another level. Their intentions became clear when Google released the <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer">"Attention Is All You Need" paper</a>, and the Transformer architecture was born. OpenAI, once a non-profit, was now at the center of a revolution, and I was excited by their success and the accelerating race to build <a href="https://en.wikipedia.org/wiki/Artificial_general_intelligence" target="_blank" rel="noopener noreferrer">Artificial General Intelligence (AGI)</a>.</p>
+                        <p>Soon, other companies utilized the same architecture to build image-based models, and <a href="https://www.midjourney.com/" target="_blank" rel="noopener noreferrer">Midjourney</a> was born. <a href="https://www.microsoft.com/" target="_blank" rel="noopener noreferrer">Microsoft</a>, a long-time researcher in the field, forged a partnership with OpenAI and launched <a href="https://copilot.microsoft.com/" target="_blank" rel="noopener noreferrer">Copilot</a>, first integrated into the Edge browser. I used it extensively to summarize webpages and format text, realizing how much mental workload could be offloaded to AI. Meanwhile, generating images with Midjourney for free was only possible through their often-overloaded Discord servers.</p>
+                        <p>In February 2023, <a href="https://about.meta.com/" target="_blank" rel="noopener noreferrer">Meta</a> launched the first major open-source LLM, <a href="https://ai.meta.com/llama/" target="_blank" rel="noopener noreferrer">LLaMA</a>, sparking a global debate on how these powerful models should be built and governed. The race to build bigger and better models had officially begun. When OpenAI launched <a href="https://openai.com/research/gpt-4" target="_blank" rel="noopener noreferrer">GPT-4</a> just six months after GPT-3.5, it was clear to everyone that the race to AGI was on. Amid the excitement, fears of existential risk grew. Elon Musk, Geoffrey Hinton, and other prominent figures signed an open letter urging frontrunners like OpenAI to slow down and focus on understanding their systems. They had a valid point—explainability was a major challenge, and LLMs were, and still are, a black box.</p>
+                        <p>This is also the period when the ethics of data collection came under scrutiny. People realized some companies were scraping the internet unethically for training data, leading to copyright disputes. OpenAI was publicly called out for its data practices, and Meta was known to have used public data from Facebook and Instagram to train its models. Another major problem that quickly became apparent was hallucination. LLMs would behave strangely in long conversations, providing false information and diverging from the topic. A lawyer in New York famously used made-up case precedents from ChatGPT in a court hearing.</p>
+                        <p>To combat hallucinations, the industry shifted towards <a href="https://research.ibm.com/blog/retrieval-augmented-generation-RAG" target="_blank" rel="noopener noreferrer">Retrieval-Augmented Generation (RAG)</a>. In a RAG system, an LLM retrieves relevant information from a curated knowledge base (like a vector database of documents) to formulate a factually grounded answer with citations. While open-source frameworks like <a href="https://www.llamaindex.ai/" target="_blank" rel="noopener noreferrer">LlamaIndex</a> aimed to help developers implement RAG, companies like <a href="https://cohere.com/" target="_blank" rel="noopener noreferrer">Cohere</a> offered enterprise-grade solutions.</p>
+                        <p>Following the launch of GPT-4, the community began building agentic frameworks like <a href="https://github.com/Significant-Gravitas/Auto-GPT" target="_blank" rel="noopener noreferrer">AutoGPT</a> and <a href="https://github.com/yoheinakajima/babyagi" target="_blank" rel="noopener noreferrer">BabyAGI</a>, designed to allow autonomous agents to work collaboratively. I shared this dream and went down a spiral of learning about these systems. By the end of 2023, OpenAI launched its Assistants API, and the global race intensified as China's tech giants like Alibaba and Baidu released their own models.</p>
+                        <p>Towards the end of the year, Google officially entered the LLM race with its <a href="https://deepmind.google/technologies/gemini/" target="_blank" rel="noopener noreferrer">Gemini</a> family of models, with Gemini 1.0 Pro being the first major multimodal model. This period wasn't without controversy, as images generated by Gemini sparked a debate on bias—an issue that persists but has largely been addressed. This crazy frenzy was fueled by hardware advancements, particularly <a href="https://www.nvidia.com/en-us/data-center/h100/" target="_blank" rel="noopener noreferrer">NVIDIA's H100 GPUs</a> and Google's TPUs. NVIDIA's innovations led its market value to cross a trillion dollars. With the rise of massive AI data centers, environmental concerns grew, though I was confident in the net-zero commitments made by major players like Google and Microsoft.</p>
+                     </div>
+                </div>
+
+                <!-- 2024 -->
+                <div class="timeline-item">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">2024</h2>
+                     <div class="space-y-4 text-gray-700">
+                        <p>By the start of 2024, I had integrated GenAI tools into my daily workflow for everything from online research and project planning to writing assistance and IT troubleshooting. I used a suite of products like <a href="https://glasp.co/" target="_blank" rel="noopener noreferrer">Glasp</a> for summarizing YouTube scripts, <a href="https://gamma.app/" target="_blank" rel="noopener noreferrer">Gamma</a> for building presentations, and <a href="https://notebooklm.google/" target="_blank" rel="noopener noreferrer">NotebookLM</a>, Google's RAG tool. New text, audio, and image models were released in rapid succession. The world was taken aback when OpenAI previewed <a href="https://openai.com/sora" target="_blank" rel="noopener noreferrer">Sora</a>, its text-to-video model. Soon after, Google launched <a href="https://deepmind.google/technologies/veo/" target="_blank" rel="noopener noreferrer">Veo</a>, and other labs released models like <a href="https://kling.kuaishou.com/" target="_blank" rel="noopener noreferrer">Kling</a> and <a href="https://lumalabs.ai/dream-machine" target="_blank" rel="noopener noreferrer">Dream Machine</a>.</p>
+                        <p><a href="https://www.anthropic.com/" target="_blank" rel="noopener noreferrer">Anthropic</a> launched <a href="https://www.anthropic.com/news/claude-3-family" target="_blank" rel="noopener noreferrer">Claude 3</a> and, later, <a href="https://www.anthropic.com/news/claude-3-5-sonnet" target="_blank" rel="noopener noreferrer">Claude 3.5</a>, which became known for their precision and safety, exhibiting fewer hallucinations. After extensive parallel testing, I found myself preferring Claude's tone and presentation, eventually switching to its paid version, with Claude 3.5 Opus becoming my most used model. The feature race was on, with companies launching new capabilities to attract users. Anthropic's "Projects" feature, their answer to RAG, was a key factor in my switch. Google's NotebookLM had its own viral moment when it introduced a feature to convert source documents into a podcast—a truly phenomenal tool.</p>
+                        <p>It became evident that the time between model launches was shrinking, and conversations began about hitting training data limits. The answer seemed to lie in building better reasoning models that used techniques like <a href="https://ai.googleblog.com/2022/05/language-models-perform-reasoning-via.html" target="_blank" rel="noopener noreferrer">Chain-of-Thought (CoT)</a>. OpenAI shook the world again with <a href="https://openai.com/index/hello-gpt-4o/" target="_blank" rel="noopener noreferrer">GPT-4o</a>, its first truly multimodal model, which quickly became its best offering for paid customers. These advanced reasoning models became the new frontier. News of a Chinese company releasing an open-source reasoning model, allegedly by replicating OpenAI's techniques, highlighted how the gap between closed and open-source models—and between the US and China—was narrowing.</p>
+                        <p>The year also saw the launch of <a href="https://www.cognition-ai.com/" target="_blank" rel="noopener noreferrer">Devin</a>, the world's first AI software engineer. While GitHub Copilot offered code completion, Devin promised autonomous task completion. This space was further bridged by agentic IDEs like <a href="https://cursor.sh/" target="_blank" rel="noopener noreferrer">Cursor</a>, which allowed users to generate entire code segments from a prompt. Many platforms like V0 and Replit emerged, showcasing the power of agents to build MVPs and applications. However, I learned that building a production-ready agentic application is still incredibly difficult and requires a deep understanding of the tech stack and best practices.</p>
+                        <p>I was excited by the potential for organizations where humans and agents could work collaboratively. I discovered <a href="https://www.youtube.com/@DavidShapiroAutomator" target="_blank" rel="noopener noreferrer">David Shapiro's YouTube channel</a>, where he and his community were researching the socio-economic impacts of AI, including post-labor economics and Universal Basic Income (UBI). His Autonomous Cognitive Entities (ACE) framework was one of the first to address the safe integration of autonomous agents.</p>
+                        <p>By the end of the year, I began learning to code agentic applications myself, choosing the <a href="https://www.crewai.com/" target="_blank" rel="noopener noreferrer">CrewAI</a> framework for its gentler learning curve over <a href="https://www.langchain.com/" target="_blank" rel="noopener noreferrer">LangChain</a>. It became evident that prompt engineering and evaluation would be the backbones of building these applications, with humans playing a crucial role in the loop. The year concluded with regulatory developments, as the <a href="https://digital-strategy.ec.europa.eu/en/policies/ai-act" target="_blank" rel="noopener noreferrer">EU's AI Act</a> received final approval, setting a global precedent for AI governance.</p>
+                     </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-20">
+                <a href="https://docs.google.com/document/d/1zxXj-9dSDVGQ9LWYhuSQVQD5DFOB6Ct3xpFzPVPb2Ws/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="text-lg font-semibold text-indigo-600 hover:text-blue-500 hover:underline transition-colors duration-300">
+                    Click here to learn more about the AI tools and platforms I have been using, and learning in this Agentic AI journey.
+                </a>
+            </div>
+        </div>
+    </main>
+
+     <!-- Contact Section -->
+    <section class="py-32 px-6 md:px-20 text-center bg-transparent">
+        <h2 class="text-4xl md:text-6xl font-semibold mb-12 text-gray-800">
+            Let’s Connect
+        </h2>
+        <p class="text-gray-700 text-lg mb-8 max-w-2xl mx-auto">
+            Interested in working together or discussing AI? I’d love to hear from you.
+        </p>
+        <div class="flex justify-center gap-6">
+            <a href="https://github.com/Bhanujeet" class="flex items-center gap-2 px-4 py-2 rounded-full border border-black bg-gradient-to-r from-gray-200 to-gray-400 hover:bg-gradient-to-r hover:from-purple-500 hover:to-blue-500 hover:text-white transition-colors text-sm shadow-md">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.165 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.942.359.308.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd" />
+                </svg>
+                GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/bhanujeet-choudhary-27444278/" class="flex items-center gap-2 px-4 py-2 rounded-full border border-black bg-gradient-to-r from-gray-400 to-gray-600 text-white hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-600 transition-colors text-sm shadow-md">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+                LinkedIn
+            </a>
+            <a href="mailto:bhanujeet.243@gmail.com" class="flex items-center gap-2 px-4 py-2 rounded-full border border-black bg-gradient-to-r from-gray-600 to-gray-800 text-white hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-600 transition-colors text-sm shadow-md">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M2.003 5.884L10 11.882l7.997-5.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                    <path d="M18 8.118l-8 6-8-6V16a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                </svg>
+                Email
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 text-center text-gray-600 text-sm">
+        <a href="index.html" class="hover:underline text-indigo-600">← Back to Home</a>
+        <p class="mt-4">© 2025 Bhanujeet Choudhary. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
